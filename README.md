@@ -61,6 +61,33 @@ If you don't have Redis installed, follow these steps:
 - **macOS**: Use `brew install redis` to install Redis via Homebrew.
 - **Linux**: Use `sudo apt install redis-server` to install Redis.
 
+**Set Redis Path in System Environment Variables**  
+   After installing Redis, make sure Redis is added to your system environment variables so that it can be accessed globally. Follow these steps:
+
+   - **Windows**:
+     - Right-click on `This PC` or `My Computer` and select `Properties`.
+     - Click on `Advanced system settings` and then `Environment Variables`.
+     - Under `System Variables`, find and select `Path`, then click `Edit`.
+     - Add the path where Redis is installed (e.g., `C:\Program Files\Redis`) to the `Path` variable and click `OK`.
+      - 
+    **Make Sure Redis Server is Running**  
+   To ensure that Redis is running, open a terminal or command prompt and start Redis:
+   
+   - **Windows**:  
+     If you installed Redis as a service, run:
+     ```bash
+     redis-server
+     ```
+     -
+    **Verify Redis Connection**  
+   To verify Redis is running, use the following command in the terminal:
+   
+   ```bash
+   redis-cli ping
+   ```
+  If Redis is running, you will receive the response: PONG
+
+
 #### 3.2. Configure Redis in Application
 
 Add the following configuration in your `application.properties` file to connect to the local Redis server:
