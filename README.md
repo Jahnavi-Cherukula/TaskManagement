@@ -26,7 +26,23 @@ To clone the repository:
 git clone https://github.com/Jahnavi-Cherukula/TaskManagement.git
 cd TaskManagement
 
+### 2. **Install Dependencies**
 
+Before running the application, ensure that you have **Java 11 or higher** and **Maven** installed.
+
+#### 2.1. **Open the Project in IntelliJ IDEA**
+
+1. Open **IntelliJ IDEA**.
+2. Select **Open Project** and navigate to the cloned repository folder.
+3. IntelliJ will automatically detect the project as a **Maven project**. If not, ensure that **Maven** is correctly configured in IntelliJ. You can check this in the **Maven** panel on the right side.
+
+#### 2.2. **Add Dependencies**
+
+The required dependencies for **Spring Boot**, **Redis**, and **testing** are already included in the `pom.xml` file.
+
+Here is an example of the dependencies in `pom.xml`:
+
+`
 
 
 
