@@ -69,8 +69,8 @@ If you don't have Redis installed, follow these steps:
      - Click on `Advanced system settings` and then `Environment Variables`.
      - Under `System Variables`, find and select `Path`, then click `Edit`.
      - Add the path where Redis is installed (e.g., `C:\Program Files\Redis`) to the `Path` variable and click `OK`.
-      - 
-    **Make Sure Redis Server is Running**  
+        
+   **Make Sure Redis Server is Running**  
    To ensure that Redis is running, open a terminal or command prompt and start Redis:
    
    - **Windows**:  
