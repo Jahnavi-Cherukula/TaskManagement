@@ -94,9 +94,9 @@ You can test the API using **Postman** or any other API testing tool.
 
 Here are the available endpoints:
 
+- **POST /tasks**: Create a new task.
 - **GET /tasks**: Retrieve all tasks.
 - **GET /tasks/{id}**: Retrieve a specific task by ID.
-- **POST /tasks**: Create a new task.
 - **PUT /tasks/{id}**: Update an existing task.
 - **DELETE /tasks/{id}**: Delete a task.
 - **PATCH /tasks/{id}/complete**: Mark a task as complete.
@@ -104,16 +104,6 @@ Here are the available endpoints:
 #### 5.2. Test with Postman
 
 You can use **Postman** to test the API:
-
-- **GET all tasks**:
-
-    - **Method**: GET
-    - **URL**: `http://localhost:8080/tasks/getAll`
-
-- **GET a specific task by ID**:
-
-    - **Method**: GET
-    - **URL**: `http://localhost:8080/tasks/getById/{id}`
 
 - **Create a task**:
 
@@ -128,6 +118,17 @@ You can use **Postman** to test the API:
         "due_date": "2024-12-01"
     }
     ```
+
+- **GET all tasks**:
+
+    - **Method**: GET
+    - **URL**: `http://localhost:8080/tasks/getAll`
+
+- **GET a specific task by ID**:
+
+    - **Method**: GET
+    - **URL**: `http://localhost:8080/tasks/getById/{id}`
+
 
 - **Update a task**:
 
