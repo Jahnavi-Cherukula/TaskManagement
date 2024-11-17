@@ -2,14 +2,7 @@
 
 This project is a Task Management API built with **Spring Boot** and **Redis** for storing tasks. The API allows users to **create**, **read**, **update**, **delete**, and **mark tasks as complete**. This project uses **Redis** as an in-memory data store to handle the tasks.
 
-## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Install Dependencies](#2-install-dependencies)
-3. [Configure Redis](#3-configure-redis)
-4. [Running the Application](#4-running-the-application)
-
----
 
 ## 1. **Introduction**
 
@@ -38,10 +31,12 @@ Clone the repository using Git:
 ```bash
 git clone https://github.com/Jahnavi-Cherukula/TaskManagement.git
 
+---
+### 2.2. Open the Project in IntelliJ IDEA
 
-
-`
-
+1. Open **IntelliJ IDEA**.
+2. Click on **Open Project** and navigate to the folder where the repository was cloned.
+3. IntelliJ will automatically detect the project as a **Maven project**. If not, ensure Maven is correctly configured in IntelliJ (the Maven panel should be visible on the right side).
 
 
 
