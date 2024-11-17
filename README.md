@@ -31,13 +31,6 @@ Clone the repository using Git:
 ```bash
 git clone https://github.com/Jahnavi-Cherukula/TaskManagement.git
 
----
-### 2.2. Open the Project in IntelliJ IDEA
-
-1. Open **IntelliJ IDEA**.
-2. Click on **Open Project** and navigate to the folder where the repository was cloned.
-3. IntelliJ will automatically detect the project as a **Maven project**. If not, ensure Maven is correctly configured in IntelliJ (the Maven panel should be visible on the right side).
-
 
 
 
