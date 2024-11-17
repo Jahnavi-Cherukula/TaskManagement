@@ -78,8 +78,8 @@ If you don't have Redis installed, follow these steps:
      ```bash
      redis-server
      ```
-     -
-    **Verify Redis Connection**  
+     
+   **Verify Redis Connection**  
    To verify Redis is running, use the following command in the terminal:
    
    ```bash
